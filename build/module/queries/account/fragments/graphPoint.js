@@ -1,0 +1,8 @@
+import gql from 'graphql-tag';
+export const GRAPH_POINT_FRAGMENT = gql `
+  fragment graphPointFields on GraphPoint {
+    time
+    value
+  }
+`;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZ3JhcGhQb2ludC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL3NyYy9xdWVyaWVzL2FjY291bnQvZnJhZ21lbnRzL2dyYXBoUG9pbnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxHQUFHLE1BQU0sYUFBYSxDQUFBO0FBRTdCLE1BQU0sQ0FBQyxNQUFNLG9CQUFvQixHQUFHLEdBQUcsQ0FBQTs7Ozs7Q0FLdEMsQ0FBQSJ9

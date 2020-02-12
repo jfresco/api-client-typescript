@@ -1,0 +1,8 @@
+import gql from 'graphql-tag';
+export const CONFIRMATIONS_FRAGMENT = gql `
+  fragment confirmationsFields on Confirmations {
+    numerator
+    denominator
+  }
+`;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29uZmlybWF0aW9ucy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL3NyYy9xdWVyaWVzL2FjY291bnQvZnJhZ21lbnRzL2NvbmZpcm1hdGlvbnMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxHQUFHLE1BQU0sYUFBYSxDQUFBO0FBRTdCLE1BQU0sQ0FBQyxNQUFNLHNCQUFzQixHQUFHLEdBQUcsQ0FBQTs7Ozs7Q0FLeEMsQ0FBQSJ9

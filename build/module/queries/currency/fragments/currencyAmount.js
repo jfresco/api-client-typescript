@@ -1,0 +1,8 @@
+import gql from 'graphql-tag';
+export const CURRENCY_AMOUNT_FRAGMENT = gql `
+  fragment currencyAmountFields on CurrencyAmount {
+    amount
+    currency
+  }
+`;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3VycmVuY3lBbW91bnQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9zcmMvcXVlcmllcy9jdXJyZW5jeS9mcmFnbWVudHMvY3VycmVuY3lBbW91bnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxHQUFHLE1BQU0sYUFBYSxDQUFBO0FBZ0I3QixNQUFNLENBQUMsTUFBTSx3QkFBd0IsR0FBRyxHQUFHLENBQUE7Ozs7O0NBSzFDLENBQUEifQ==

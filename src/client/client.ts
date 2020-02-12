@@ -261,9 +261,15 @@ export class Client {
     })
 
     const httpLink = createHttpLink({ fetch, uri: this.opts.apiURI })
+    const cache = new InMemoryCache()
+
+    // XXX: Quick and dirty way to sporadically clear the cache to avoid memory leaks
+    setInterval(() => {
+      cache.reset()
+    }, 120000)
 
     this.gql = new ApolloClient({
-      cache: new InMemoryCache(),
+      cache,
       link: headerLink.concat(httpLink),
       defaultOptions: {
         watchQuery: {

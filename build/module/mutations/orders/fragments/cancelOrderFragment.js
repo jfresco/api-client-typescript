@@ -1,0 +1,7 @@
+import gql from 'graphql-tag';
+export const CANCELED_ORDER_FRAGMENT = gql `
+  fragment canceledOrderFields on CanceledOrder {
+    orderId
+  }
+`;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2FuY2VsT3JkZXJGcmFnbWVudC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL3NyYy9tdXRhdGlvbnMvb3JkZXJzL2ZyYWdtZW50cy9jYW5jZWxPcmRlckZyYWdtZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sR0FBRyxNQUFNLGFBQWEsQ0FBQTtBQUU3QixNQUFNLENBQUMsTUFBTSx1QkFBdUIsR0FBRyxHQUFHLENBQUE7Ozs7Q0FJekMsQ0FBQSJ9
